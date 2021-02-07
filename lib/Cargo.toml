@@ -25,7 +25,7 @@ tokio = { version = "1.2", features = ["fs", "rt", "rt-multi-thread"] }
 
 tracing = "0.1.9"
 tracing-futures = "0.2"
-multipart = { version = "0.16", default-features = false, features = ["client"] }
+multipart = { version = "0.17", default-features = false, features = ["client"] }
 
 telegram-bot-raw = { version = "0.8.0", path = "../raw" }
 
