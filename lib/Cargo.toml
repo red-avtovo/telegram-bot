@@ -20,7 +20,7 @@ rustls = ["hyper-rustls"]
 default = ["openssl"]
 
 [dependencies]
-bytes = "0.5"
+bytes = "1.0"
 tokio = { version = "1.2", features = ["fs", "rt", "rt-multi-thread"] }
 
 tracing = "0.1.9"
